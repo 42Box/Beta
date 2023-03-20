@@ -10,11 +10,10 @@ import Token from './Token'
 
 
 function App() {
-  return 
-    <Router>
-    <Routes>
-      <Route path={process.env.PUBLIC_URL + "/"} element={<Box />}/>
-    </Routes>
-    </Router>
+  return <Router>
+  <Routes>
+    <Route path="/" element={<Box />}/>
+  </Routes>
+</Router>
 }
 export default App;
