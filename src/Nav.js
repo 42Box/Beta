@@ -32,7 +32,8 @@ function Nav({ userInfo }) {
                 // </form>
                 :
                 <div className={styles.item3}>
-                    <Link to={`https://api.intra.42.fr/oauth/authorize?client_id=${process.env.REACT_APP_UID}&redirect_uri=http%3A%2F%2Flocalhost%3A4242%2Fhome&response_type=code`}>
+                    <Link to={`https://api.intra.42.fr/oauth/authorize?client_id=${process.env.REACT_APP_UID}&redirect_uri=https%3A%2F%2F42Box.github.io%2FBeta%2Fhome&response_type=code
+`}>
                         <button className={styles.button}>
                                 LOGIN
                         </button>

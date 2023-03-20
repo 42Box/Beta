@@ -22,7 +22,7 @@ const Token = ({children}) => {
           code + 
           '&' +
           'redirect_uri=' +
-          'http://localhost:4242/home' +
+          'https://42Box.github.io/Beta/home' +
           '&' +
           'scope=public';
       const json = await (
