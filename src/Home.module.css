@@ -1,0 +1,32 @@
+.background {
+
+    background: rgb(239, 255, 161);
+    background: linear-gradient(0deg, rgba(239, 255, 161, 1) 0%, rgba(246, 183, 116, 1) 68%, rgba(255, 90, 59, 1) 100%);
+    /* background-size: initial; */
+
+    height: 200vw;
+    width: 100vw;
+    z-index: 0;
+    /* margin: 0;
+    padding: 0; */
+}
+
+.imageSearching {
+	position: absolute;
+	z-index: 20;
+    top: 40px;
+    left: 60px;
+	width: 630px;
+	text-align: center;
+}
+
+.loading {
+    position: absolute;
+    top: 470px;
+    left: 120px;
+    text-align: center;
+    font-family: monaco;
+    font-size: 80px;
+    letter-spacing: 10px;
+	color: antiquewhite;
+}
