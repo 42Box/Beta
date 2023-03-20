@@ -11,13 +11,12 @@ import Token from './Token'
 
 function App() {
   return 
-    <BrowserRouter base = {process.env.PUBLIC_URL}>
+    <Route>
     <Routes>
-      <Route path={process.env.PUBLIC_URL + "/"} element={<Home />}/>
-      <Route path={process.env.PUBLIC_URL +"/home"}element={<Token />}/>
-      <Route path={process.env.PUBLIC_URL + "/box" }element={<Box />}/>
+      <Route path={process.env.PUBLIC_URL + "/"} element={<Box />}/>
+      //<Route path={process.env.PUBLIC_URL +"/home"}element={<Token />}/>
+      //<Route path={process.env.PUBLIC_URL + "/box" }element={<Box />}/>
     </Routes>
-  </BrowserRouter>
+    </Route>
 }
-
 export default App;
